@@ -1,4 +1,4 @@
-# ListenCounter-NodeJS
+# ListenCounter
 Made with nodejs, node-record-lpcm16, GCP Cloud Speech to Text.
 
 # So What is it??
