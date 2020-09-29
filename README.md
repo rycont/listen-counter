@@ -1,6 +1,8 @@
 # ListenCounter
 Made with nodejs, node-record-lpcm16, GCP Cloud Speech to Text.
 
+[Origin From](https://github.com/phillin77/google-speech-api-samples)
+
 # So What is it??
 Listen microphone and convert to text. and count specified word.
 
