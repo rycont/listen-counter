@@ -1,0 +1,82 @@
+{
+    "_from": "nodejs-docs-samples-speech",
+    "_id": "nodejs-docs-samples-speech@0.0.1",
+    "_inBundle": false,
+    "_integrity": "sha1-AXXnDjVNxawK9MKb8VT7Kt+Sf+o=",
+    "_location": "/nodejs-docs-samples-speech",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "tag",
+        "registry": true,
+        "raw": "nodejs-docs-samples-speech",
+        "name": "nodejs-docs-samples-speech",
+        "escapedName": "nodejs-docs-samples-speech",
+        "rawSpec": "",
+        "saveSpec": null,
+        "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+        "#USER",
+        "/"
+    ],
+    "_resolved": "https://registry.npmjs.org/nodejs-docs-samples-speech/-/nodejs-docs-samples-speech-0.0.1.tgz",
+    "_shasum": "0175e70e354dc5ac0af4c29bf154fb2adf927fea",
+    "_spec": "nodejs-docs-samples-speech",
+    "_where": "C:\\Users\\rycont\\Documents\\dev",
+    "author": {
+        "name": "Google Inc."
+    },
+    "bugs": {
+        "url": "https://github.com/GoogleCloudPlatform/nodejs-docs-samples/issues"
+    },
+    "bundleDependencies": false,
+    "cloud-repo-tools": {
+        "requiresKeyFile": true,
+        "requiresProjectId": true,
+        "product": "speech",
+        "samples": [
+            {
+                "id": "recognize",
+                "name": "Speech Recognition",
+                "file": "recognize.js",
+                "docs_link": "https://cloud.google.com/speech/docs",
+                "usage": "node recognize.js --help"
+            }
+        ]
+    },
+    "dependencies": {
+        "@google-cloud/speech": "^0.10.2",
+        "@google-cloud/storage": "^1.2.1",
+        "@grpc/proto-loader": "^0.5.4",
+        "chalk": "^4.0.0",
+        "dotenv": "^8.2.0",
+        "log-update": "^4.0.0",
+        "node-record-lpcm16": "0.3.0",
+        "yargs": "8.0.2"
+    },
+    "deprecated": false,
+    "description": "<img src=\"https://avatars2.githubusercontent.com/u/2810941?v=3&s=96\" alt=\"Google Cloud Platform logo\" title=\"Google Cloud Platform\" align=\"right\" height=\"96\" width=\"96\"/>",
+    "devDependencies": {
+        "@google-cloud/nodejs-repo-tools": "^1.4.17",
+        "ava": "^0.21.0",
+        "proxyquire": "^1.8.0",
+        "sinon": "^3.2.0"
+    },
+    "engines": {
+        "node": ">=4.3.2"
+    },
+    "homepage": "https://github.com/GoogleCloudPlatform/nodejs-docs-samples#readme",
+    "license": "Apache-2.0",
+    "name": "nodejs-docs-samples-speech",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GoogleCloudPlatform/nodejs-docs-samples.git"
+    },
+    "scripts": {
+        "lint": "samples lint",
+        "pretest": "npm run lint",
+        "test": "samples test run --cmd ava -- -T 20s --verbose system-test/*.test.js"
+    },
+    "version": "0.0.1"
+}
